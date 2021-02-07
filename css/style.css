@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap");
 
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'PT Sans';
-    color: var(--secondary-color);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans";
+  color: var(--secondary-color);
 }
 
 .container {
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 :root {
@@ -32,81 +33,156 @@ h5,
 h6 {
   font-family: "Montserrat";
   text-transform: uppercase;
+  margin: 0;
 }
 
 p {
-    font-family: 'PT Sans';
-    font-size: 18px;
-    color: var(--secondary-color);
+  font-family: "PT Sans";
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .btn {
-    border: solid 3px;
-    background: var(--white);
-    font-size: 20px;
-    color: var(--secondary-color);
-    text-align: center;
-    display: block;
-    transition: all 0.25s ease-in-out;
-    cursor: pointer;
+  border: solid 3px;
+  background: var(--white);
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-align: center;
+  display: block;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  max-width: 234px;
+  width: 100%;
 }
 
 .btn.btn-primary {
-    border-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .btn.btn-primary:hover {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
 
 .btn.btn-secondary {
-    border-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .btn.btn-secondary:hover {
-    background: var(--secondary-color);
-    color: var(--white);
+  background: var(--secondary-color);
+  color: var(--white);
 }
 
 .nav__list {
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
-    align-items: center;
-    margin-top: 47px;
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  align-items: center;
+  margin-top: 47px;
 }
 
 .nav__list-items {
-    margin-right: 88px;
+  margin-right: 88px;
 }
 
 .nav__list-items:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .nav__list-item {
-    border-bottom: 1px solid transparent;
-    padding-bottom: 6px;
-    transition: all 0.25s ease-in-out;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: var(--secondary-color);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 6px;
+  transition: all 0.25s ease-in-out;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 .nav__list-item:hover {
-    border-bottom-color: var(--primary-color);
-}
-
-.header__contents {
-    display: flex;
+  border-bottom-color: var(--primary-color);
 }
 
 .ellipse-4 {
-    max-width: 192px;
-    width: 100%;
-    position: absolute;
+  max-width: 192px;
+  width: 100%;
+  position: absolute;
+  left: 263px;
+  top: 58px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__heading {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 80px;
+  color: var(--primary-color);
+  margin-top: 88px;
+  margin-right: 57px;
+  white-space: nowrap;
+}
+
+.header__heading:after {
+  content: "";
+  width: 400px;
+  height: 7px;
+  background: var(--secondary-color);
+  display: block;
+  margin-top: 25px;
+}
+
+.header__title {
+  text-transform: capitalize;
+  font-family: "PT Sans";
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.header__title-span {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.btn.btn-primary.btn-header {
+  padding: 13px 33px 12px 34px;
+  margin-top: 86px;
+}
+
+.header__illustration {
+  max-width: 624px;
+  width: 100%;
+  margin-top: 173px;
+}
+
+.ellipse-3 {
+  position: absolute;
+  left: 556px;
+  top: 622px;
+}
+
+.header__footer {
+  display: flex;
+  align-items: center;
+}
+
+.header__footer-text {
+    margin-left: 8px;
+}
+
+.about {
+    margin-top: 135px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
 }
