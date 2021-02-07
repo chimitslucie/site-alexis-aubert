@@ -52,6 +52,7 @@ a {
     text-align: center;
     display: block;
     transition: all 0.25s ease-in-out;
+    cursor: pointer;
 }
 
 .btn.btn-primary {
@@ -69,13 +70,6 @@ a {
 .btn.btn-secondary:hover {
     background: var(--secondary-color);
     color: var(--white);
-}
-
-.burger {
-    display: block;
-    cursor: pointer;
-    border: 1px solid var(--secondary-color);
-    padding: 8px;
 }
 
 .nav__list {
@@ -105,4 +99,14 @@ a {
 
 .nav__list-item:hover {
     border-bottom-color: var(--primary-color);
+}
+
+.header__contents {
+    display: flex;
+}
+
+.ellipse-4 {
+    max-width: 192px;
+    width: 100%;
+    position: absolute;
 }
