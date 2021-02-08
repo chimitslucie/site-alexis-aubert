@@ -34,6 +34,7 @@ h6 {
   font-family: "Montserrat";
   text-transform: uppercase;
   margin: 0;
+  color: var(--black);
 }
 
 p {
@@ -186,3 +187,34 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.about__text-title {
+  font-weight: 500;
+  font-size: 37px;
+}
+
+.about__text-heading {
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.about__copy {
+  margin-top: 65px;
+}
+
+.about__text-copy {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.about__text-copy:first-child {
+  margin-top: 0;
+}
+
+.btn.btn-primary.btn-about {
+  padding: 15px 28px 14px;
+  margin-top: 41px;
+}
+
