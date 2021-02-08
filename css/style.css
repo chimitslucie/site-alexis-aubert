@@ -42,6 +42,7 @@ p {
   font-size: 18px;
   color: var(--secondary-color);
   margin: 0;
+  font-weight: 400;
 }
 
 a {
@@ -216,5 +217,151 @@ a {
 .btn.btn-primary.btn-about {
   padding: 15px 28px 14px;
   margin-top: 41px;
+  margin-bottom: 93px;
 }
 
+.about__illustration {
+  margin-bottom: 110px;
+}
+
+.process {
+  margin-bottom: 195px;
+}
+
+.process__content-titles {
+  text-align: end;
+  margin-bottom: 91px;
+}
+
+.process__content-title {
+  font-weight: 500;
+  font-size: 37px;
+}
+
+.process__content-heading {
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.process__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.process__contact-text {
+  max-width: 528px;
+  text-align: center;
+}
+
+.process__contact-number {
+  font-size: 45px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.process__contact-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 31px;
+}
+
+.process-span {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.process__contact-script {
+  margin-top: 25px;
+}
+
+.process__reflection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.process__reflection-text {
+  max-width: 528px;
+  text-align: center;
+}
+
+.process__reflection-number {
+  font-size: 45px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.process__reflection-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 31px;
+}
+
+.process__reflection-script {
+  margin-top: 25px;
+}
+
+.process__integration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.process__integration-text {
+  max-width: 528px;
+  text-align: center;
+}
+
+.process__integration-number {
+  font-size: 45px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.process__integration-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 31px;
+}
+
+.process__integration-script {
+  margin-top: 25px;
+}
+
+.process__success {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.process__success-text {
+  max-width: 528px;
+  text-align: center;
+}
+
+.process__success-number {
+  font-size: 45px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.process__success-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 31px;
+}
+
+.process__success-script {
+  margin-top: 25px;
+}
