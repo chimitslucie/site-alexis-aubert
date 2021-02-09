@@ -416,3 +416,26 @@ a {
   height: 54px;
   margin: 0 auto;
 }
+
+.contact__title {
+  font-weight: 500;
+  font-size: 37px;
+}
+
+.contact__heading {
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.contact__content {
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
