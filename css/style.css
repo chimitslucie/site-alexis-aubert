@@ -432,10 +432,79 @@ a {
 .contact__content {
   display: flex;
   margin-bottom: 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, textarea, select {
+  font-family: "PT Sans";
+  color: var(--black);
+  font-size: 16px;
+}
+
+.contact__form {
+  margin-bottom: 30px;
+}
+
+.contact__form:last-of-type {
+  margin-bottom: 52px;
+}
+
+.contact__form-box {
+  width: 427px;
+  padding-left: 11px;
+  outline: 0;
+  color: var(--black);
+  font-size: 16px;
+}
+
+.contact__form-mail,
+.contact__form-tel,
+.contact__form-text {
+  border: none;
+  border-bottom: 3px solid var(--primary-color);
+  height: 33px;
+}
+
+.contact__form-msg {
+  border: 3px solid var(--primary-color);
+  height: 172px;
+  padding-top: 17px;
+}
+
+.btn.btn-secondary.btn-form {
+  width: 162px;
+  height: 54px;
+  margin: 0 auto;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
   margin-bottom: 38px;
+}
+
+::placeholder {
+  color: var(--black);
+  opacity: 0.5;
+}
+
+::-webkit-input-placeholder {
+  color: var(--black);
+  opacity: 0.5;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--black);
+  opacity: 0.5;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: var(--black);
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {  
+  color: var(--black);
+  opacity: 0.5;
 }

@@ -225,7 +225,9 @@
               alt="development-img"
               class="development-img"
             />
-            <h3 class="development__title skill__content-title">développement</h3>
+            <h3 class="development__title skill__content-title">
+              développement
+            </h3>
             <p class="development__text skill__content-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
               quod blanditiis voluptates asperiores incidunt, quisquam
@@ -270,17 +272,47 @@
         </div>
         <div class="contact__content">
           <form action="" method="get">
-            <div>
-              <input type="text" id="mail" name="user_mail" value="Adresse mail">
+            <div class="contact__form">
+              <input
+                type="text"
+                id="mail"
+                name="user_mail"
+                placeholder="Adresse mail"
+                class="contact__form-mail contact__form-box"
+              />
             </div>
-            <div>
-              <input type="text" id="tel" value="N° de téléphone">
+            <div class="contact__form">
+              <input
+                type="text"
+                id="tel"
+                placeholder="N° de téléphone"
+                class="contact__form-tel contact__form-box"
+              />
             </div>
-            <div>
-              <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+            <div class="contact__form">
+              <input
+                type="text"
+                id="msg"
+                placeholder="Sujet du message"
+                class="contact__form-text contact__form-box"
+              />
+            </div>
+            <div class="contact__form">
+              <textarea
+                id="msg"
+                placeholder="Contenu de votre message"
+                class="contact__form-msg contact__form-box"
+              ></textarea>
+            </div>
+            <div class="form__btn">
+              <a href="#" class="btn btn-secondary btn-form">envoyer</a>
             </div>
           </form>
-          <img src="./img/contact/contact.jpg" alt="contact-img" class="contact-img">
+          <img
+            src="./img/contact/contact.jpg"
+            alt="contact-img"
+            class="contact-img"
+          />
         </div>
       </div>
     </div>
