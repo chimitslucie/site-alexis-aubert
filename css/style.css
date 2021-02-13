@@ -114,8 +114,8 @@ a {
   max-width: 192px;
   width: 100%;
   position: absolute;
-  left: 263px;
-  top: 58px;
+  left: 20%;
+  top: 10%;
 }
 
 .header__content {
@@ -169,8 +169,8 @@ a {
 
 .ellipse-3 {
   position: absolute;
-  left: 556px;
-  top: 622px;
+  left: 35%;
+  top: 90%;
 }
 
 .header__footer {
@@ -564,9 +564,11 @@ select {
     padding-right: 0;
   }
 
-  .ellipse-3 {
-    left: 400px;
+  .about__content {
+    flex-direction: column;
   }
+
+  
 }
 
 @media (max-width: 500px) {
