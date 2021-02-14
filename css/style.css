@@ -636,7 +636,7 @@ select {
 
   .about__copy {
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     margin: 65px auto 0;
   }
 
@@ -698,14 +698,13 @@ select {
   .container {
     max-width: 650px;
   }
-  
+
   .header__content {
     flex-direction: column;
   }
 
   .ellipse-4 {
-    top: 2%;
-    left: 2%;
+    display: none;
   }
 
   .ellipse-3 {
@@ -714,5 +713,49 @@ select {
 
   .header__illustration {
     margin-top: 58px;
+  }
+
+  .burger {
+    margin-right: 0;
+  }
+
+  .process__contact {
+    flex-direction: column;
+  }
+
+  .process__contact-text {
+    margin-top: 15px;
+  }
+
+  .process__reflection {
+    flex-direction: column-reverse;
+  }
+
+  .process__reflection-text {
+    margin-top: 15px;
+  }
+
+  .process__integration {
+    flex-direction: column;
+  }
+
+  .process__integration-text {
+    margin-top: 15px;
+  }
+
+  .process__success {
+    flex-direction: column-reverse;
+  }
+
+  .process__success-text {
+    margin-top: 15px;
+  }
+
+  .skill__footer {
+    margin-bottom: 75px;
+  }
+
+  .contact__content {
+    flex-direction: column;
   }
 }
