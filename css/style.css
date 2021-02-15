@@ -759,3 +759,35 @@ select {
     flex-direction: column;
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .footer__content-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container  {
+    max-width: 300px;
+  }
+
+  .header__footer {
+    margin-top: 20px;
+  }
+
+  .about {
+    margin-top: 80px;
+  }
+
+  .process {
+    margin-bottom: 100px;
+  }
+
+  .skill__content {
+    grid-template-columns: 1fr;
+  }
+}
