@@ -775,6 +775,10 @@ select {
     max-width: 300px;
   }
 
+  .nav {
+    margin-right: 0;
+  }
+
   .header__footer {
     margin-top: 20px;
   }
