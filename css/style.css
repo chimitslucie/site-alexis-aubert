@@ -664,7 +664,6 @@ select {
     position: absolute;
     width: 100%;
     background: var(--white);
-    position: absolute;
     max-width: 205px;
     right: 0;
     left: auto;
